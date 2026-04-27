@@ -21,7 +21,7 @@ spec:
     spec:
       containers:
       - name: observ
-        image: observ:latest
+        image: ghcr.io/thomasrubini/observ:main
         ports:
         - containerPort: 8080
           name: http
